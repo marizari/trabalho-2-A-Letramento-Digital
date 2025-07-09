@@ -7,7 +7,7 @@
   didáticas para uma navegação mais confiante pela internet. O site apresenta informações sobre o projeto, sua equipe, eventos realizados e futuros, além de um formulário de contato.</p>
 
 <p align="center">Idealizado no contexto de projetos de extensão universitária, o site também funciona como uma plataforma para divulgar a iniciativa, conectar-se com o público de 
-froma acessível não só para um tipo de usuário. Tudo foi pensado para garantir acessibilidade, segurança e facilidade de uso para todos os visitantes.
+forma acessível não só para um tipo de usuário. Tudo foi pensado para garantir acessibilidade, segurança e facilidade de uso para todos os visitantes.
 </p>
 
 ---
@@ -52,6 +52,8 @@ e manipulação básica do DOM com JavaScript.
 -   **GitHub:** Versionamento de código e hospedagem.
 
 ---
+
+## Estrutura:
 
 * **HTML:** Arquivos `.html` para cada seção do site.
 * **CSS:** Arquivos `.css` para estilos gerais (`style.css`), específicos do calendário (`proximos.css`) e do formulário (`formulario.css`).
