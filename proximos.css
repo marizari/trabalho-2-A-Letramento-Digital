@@ -1,0 +1,199 @@
+*{
+    font-size: 18px;
+}
+
+body {
+    background: url(imagens/Captura\ de\ tela\ 2024-11-11\ 012615.png);
+}
+
+.navbar .navbar-brand {
+    border-radius: 10px;
+}
+
+.navbar .navbar-brand img {
+    width: 100px;
+}
+
+.container-fluid{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    max-width: 1200px;
+    margin-top: 140px; 
+}
+
+.map-container {
+    margin-top: 25px;
+}
+
+.calendar {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 60%; 
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 14.28%;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+td {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #e0e0e0;
+}
+
+.event-day {
+    background-color: #ea1212;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.event-day:hover {
+    background-color: #b71f1f;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+#contato-btn {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: normal;
+    background-color: #004b7a;
+    margin-top: 50px;
+}
+
+#contato-btn:hover{
+    box-shadow: 0px 0px 15px 1px #0065a4;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+footer ul li a:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+#Fcontatos ul li i .infoLink:hover{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#copy:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+/* Estilos para a seção dos encontros */
+.Encontro-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.Encontro-container h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.Encontro-container p {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Layout responsivo para os encontros */
+.Encontro-1, .Encontro-2, .Encontro-3, .Encontro-4 {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos para os títulos dos encontros */
+.Encontro-1 h2, .Encontro-2 h2, .Encontro-3 h2, .Encontro-4 h2 {
+    font-size: 1.6rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}

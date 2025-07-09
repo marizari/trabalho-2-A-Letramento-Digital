@@ -1,0 +1,105 @@
+*{
+    font-size: 18px;
+}
+
+body {
+    background: url(imagens/Captura\ de\ tela\ 2024-11-11\ 012615.png);
+}
+
+.navbar .navbar-brand {
+    border-radius: 10px;
+}
+
+.navbar .navbar-brand img {
+    width: 100px;
+}
+
+.container-fluid{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+#formCard{
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+#contato-btn {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: normal;
+    background-color: #004b7a;
+    margin-top: 50px;
+}
+
+#contato-btn:hover{
+    box-shadow: 0px 0px 15px 1px #0065a4;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+footer ul li a:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+#Fcontatos ul li i .infoLink:hover{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#copy:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#btnEnviar{
+    border: none;
+    transition: 0.3s;
+}
+
+#btnEnviar:hover{
+    box-shadow: 0px 0px 20px 1px blue;
+    transition: 0.3s;
+}

@@ -1,0 +1,138 @@
+*{
+    font-size: 18px;
+}
+
+body{
+    background-color: rgb(0, 75, 122);
+}
+
+.navbar-brand{
+    border-radius: 10px;
+}
+
+.container-fluid{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+main {
+    margin-top: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.carousel-inner {
+    margin-top: 113px;
+}
+
+#divText{
+    margin: 10px;
+}
+
+#divText h2{
+    color: black;
+    font-weight: 700px;
+}
+
+#divText p{
+    color: black;
+    font-weight: 500px;
+    padding: 10px;
+    height: 10rem;
+}
+
+#divMaps{
+    margin-top: 13px;
+}
+
+#cardsImg img{
+    width: 150px;
+}
+
+#divh2 h2 {
+    margin-top: 120px;
+    color: white;
+}
+
+#sobreEquipe{
+    color: white;
+    font-weight: 700;
+    margin-top: 110px;
+    padding: 30px;
+}
+
+#descrEquipe{
+    color: white;
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-brand img{
+    width: 100px;
+    padding-bottom: 15px;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#contato-btn {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: normal;
+    background-color: #004b7a;
+    margin-top: 50px;
+}
+
+#contato-btn:hover{
+    box-shadow: 0px 0px 15px 1px #0065a4;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+footer ul li a:hover{
+    color: blue;
+    font-weight: 500;
+}
+
+#Fcontatos ul li i .infoLink:hover{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#copy:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Encontros Anteriores</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/imagens/nomelogo.png" type="image/x-icon">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagens/logodosidosoa.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home  </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="equipe.html">Sobre a Equipe  </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proximosencontros.html">Próximos Encontros  </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="encontrosAnterior.html">Encontros Anteriores  </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container my-5" id="divh2">
+  <h2 class="mb-4">Encontros Anteriores - Galeria de Fotos e Vídeos</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4 ">  
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card">
+        <img src="imagens/velhos.jpg" class="card-img-top" alt="Encontro de setembro">
+        <div class="card-body">
+          <h5 class="card-title">Encontro de setembro</h5>
+          <p class="card-text">Introdução ao uso de tablets</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1">
+            Ver Mais
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card">
+        <img src="imagens/velhos2.jpg" class="card-img-top" alt="Encontro de outubro">
+        <div class="card-body">
+          <h5 class="card-title">Encontro de outubro</h5>
+          <p class="card-text">Introdução ao uso de tablets</p>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal2">
+            Ver Mais
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col">
+        <div class="card">
+          <img src="imagens/velhos3.jpg" class="card-img-top" alt="Encontro de novembro">
+          <div class="card-body">
+            <h5 class="card-title">Encontro de novembro</h5>
+            <p class="card-text">Introdução ao uso de tablets</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
+              Ver Mais
+            </button>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1Label">Encontro de setembro</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <img src="imagens/velhos.jpg" class="img-fluid" alt="Encontro de setembro">
+        <p class="mt-2">Introdução ao uso de tablets. Aprendizado e integração tecnológica.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal1Label">Encontro de outubro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <img src="imagens/velhos2.jpg" class="img-fluid" alt="Encontro de outubro">
+          <p class="mt-2">Introdução ao uso de tablets. Aprendizado e integração tecnológica.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal1Label">Encontro de novembro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <img src="imagens/velhos3.jpg" class="img-fluid" alt="Encontro de novembro">
+          <p class="mt-2">Introdução ao uso de tablets. Aprendizado e integração tecnológica.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="p-1">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-4">
+        <h5>Menu</h5>
+        <ul>
+          <li>
+            <i class="fa-solid fa-house-user"></i><a href="index.html">  Home</a></li>
+          <li>
+            <i class="fa-solid fa-users"></i><a href="equipe.html">  Equipe</a></li>
+          <li>
+            <i class="fa-solid fa-calendar-days"></i><a href="proximosencontros.html">  Próximos Eventos</a></li>
+          <li>
+            <i class="fa-solid fa-calendar-check"></i><a href="encontrosAnterior.html">  Encontros Anteriores</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4" id="Fcontatos">
+        <h5>Nossos Contatos</h5>
+        <ul>
+          <li>
+            <i class="fa-solid fa-phone"></i><a href="#" class="infoLink">  (44)98452-7841</a></li>
+          <li>
+            <i class="fa-solid fa-envelope" id="envelope"></i><a href="#" class="infoLink"> contato@nomegmail.com</a></li>
+          <li>
+            <i class="fa-solid fa-house" id="local"></i><a href="#" class="infoLink">  Nome da rua, 007</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h7 id="copy">© 2024 Projeto Letramento Digital</h7>
+        <a class="btn btn-primary" href="formulario.html" role="button" id="contato-btn">Fale conosco</a>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
